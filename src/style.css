@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    height: 80px;
+}
+
+h1 {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.left {
+    justify-content: flex-end;
+}
+
+.right {
+    justify-content: flex-start;
+}
+
+.text-color {
+    color: black;
+}
+
+main, article {
+    height: 100vh;
+}
+
+header, main {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+article, .header-section {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+article {
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.white, .right{
+    background-color: white;
+}
+
+.black, .left {
+    background-color: black;
+    color: white;
+}
